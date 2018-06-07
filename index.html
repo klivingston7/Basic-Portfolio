@@ -5,27 +5,32 @@
     <!-- Linking CSS -->
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
 </head>
 
-<body>
-
-    <nav>
+<body> 
+    <section class="hborder">
+     <section class="head">
+      <h1 class="name">Kitt Livingston</h1> 
+      <nav class="header"> 
         <ul class="m-nav">
-            <li class="head">Kitt Livingston</li>
             <li><a href="./index.html">About</a></li>
+            <li><a id="lrb" href="./portfolio.html">Portfolio</a></li>
             <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
         </ul>
-    </nav>
+     </nav>
+    </section> 
+   </section>
+
     <div class="about">
+      <section class="content">
         <h2>
             About Me
         </h2>
-      <section class="content">
+
         <div class="portrait">
           <img src="./assets/images/Untitled.png">
-        </div>
           <p>
             I was born and raised in La Jolla, California and lived there for the greater part of 18 years until I wanted to experience something completely different and moved to the great state of Texas. 
             I chose to attend Texas Christian University where I graduated with a Bachelor of Science degree in Applied Geoscience. 
@@ -37,10 +42,12 @@
           </p>
        </section>
     </div>
-    
+
   <footer>
     Copyright ©
   </footer>
+  
 </body>
+<script> $("body").backstretch("./assets/images/joe-tree-242839-unsplash.jpg");</script>
 
 </html>

@@ -86,7 +86,7 @@ h2 {
 img {
     float:left;
     height: 160px;
-    width: auto;
+    width: 150px;
     margin: 10px 20px 1px 15px;
 }
 
@@ -121,16 +121,14 @@ footer {
     float: left;
     width: 25%;
     padding: 0 0 10px 0;
-}
-
-.column img {
-    margin-top: 12px;
-    box-sizing: content-box;
+    position:relative;
+    text-align:center;
 }
 
 .cont {
     padding: 10px;
     text-align: center;
+    position: relative;
 
 }
 
@@ -138,15 +136,22 @@ footer {
     opacity: 0.3;
 }
 
-image {
+img.image {
     z-index: 0;
+    padding: 0 10px;
 }
 
-p3{
+.text{
+    position: absolute;
     z-index: 1;
     background-color: #4aaaa5;
-    padding: 8px 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 15%;
+    bottom: -692%;
+    width: 64.25%;
     color: white;
+    
 }
 
 .row:after {
